@@ -1,1 +1,19 @@
-#map { height: 250px; }
+body {
+    --color-primary: #3e3b40;
+    --color-primary-dark: #353435;
+    --color-text: #a77b46;
+    --color-secondary: #5b5eac;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 18px;
+    background: var(--color-primary-dark);
+    background-size: cover;
+}
+
+
+            #map { height: 550px;
+            width: 750px; }
